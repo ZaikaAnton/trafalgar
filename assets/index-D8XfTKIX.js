@@ -1547,7 +1547,7 @@ attempted value: ${a}
   @media (max-width: 800px) {
     max-height: 280px;
   }
-`,Gm=({text:e,logo:t,link:r})=>f.jsxs(VT,{to:r,children:[t==="google"&&f.jsx(HT,{src:"google-icon.svg",alt:"Google Logo"}),t==="apple"&&f.jsx(WT,{src:"apple-icon.svg",alt:"Apple Logo"}),e]}),gx=()=>f.jsxs(UT,{variant:"subtitleS",children:[f.jsx(Gm,{provider:"google",text:"Войти с помощью Google",logo:"google",link:"/error"}),f.jsx(Gm,{provider:"apple",text:"Войти с помощью Apple",logo:"apple",link:"/error"})]}),UT=S(Re)`
+`,Gm=({text:e,logo:t,link:r})=>f.jsxs(VT,{to:r,children:[t==="google"&&f.jsx(HT,{src:"trafalgar/public/assets/apple-icon.svg",alt:"Google Logo"}),t==="apple"&&f.jsx(WT,{src:"apple-icon.svg",alt:"Apple Logo"}),e]}),gx=()=>f.jsxs(UT,{variant:"subtitleS",children:[f.jsx(Gm,{provider:"google",text:"Войти с помощью Google",logo:"google",link:"/error"}),f.jsx(Gm,{provider:"apple",text:"Войти с помощью Apple",logo:"apple",link:"/error"})]}),UT=S(Re)`
   font-family: ${({theme:e})=>e.fonts.primary};
   display: flex;
   gap: 10px;
